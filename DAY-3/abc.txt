@@ -1,0 +1,4 @@
+Durga:10
+Ravi:20
+Shiva:30
+Pavan:40
