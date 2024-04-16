@@ -23,6 +23,8 @@ push(62)
 push(87)
 push(34)
 push(24)
+push(4524)
+push(324)
 print("Stack Element: ")
 for i in range(MAXSIZE):
  print(stack[i], end=" ")
