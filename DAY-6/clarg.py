@@ -10,5 +10,8 @@ print("\nArguments passed:", end = " ")
 num = []
 for i in range(1, n):
    num.append(int(sys.argv[i]))
-print("sum: ", sum(num))
-print("Average: ", sum(num)/len(num))
+try:
+ print("sum: ", sum(num))
+ print("Average: ", sum(num)/len(num))
+except ZeroDivisionError:
+ print("Error: divison by not zero ", )
