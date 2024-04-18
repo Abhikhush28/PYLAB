@@ -45,4 +45,25 @@
 # output = FindAutoCount(input_str)
 # print(output)  # Output: 3
 
+
+
+def is_autobiographical_number(number):
+    number_str = str(number)
+    count = [0] * 10
+
+    for digit in number_str:
+        count[int(digit)] += 1
+
+    for i in range(len(number_str)):
+        if int(number_str[i]) != count[i]:
+            return False
+
+    return True
+
+# Example usage
+number = int(input("Enter a number: "))
+if is_autobiographical_number(number):
+    print(number, "is an autobiographical number.")
+else:
+    print(number, "is not an autobiographical number.")
  

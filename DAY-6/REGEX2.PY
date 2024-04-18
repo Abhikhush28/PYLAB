@@ -1,3 +1,4 @@
+import re
 # Target String one
 str1 = "Emma's luck numbers are 251 761 231 4513"
  
