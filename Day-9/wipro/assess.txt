@@ -1,0 +1,41 @@
+create directory called , wipro
+ 
+1. class Calculation :
+ 
+    def __init__():
+ 
+ 
+   def addtwo(x,y):
+       return x+y
+ 
+   def prod(x,y):
+       return x*y
+ 
+ 
+save as calc.py
+ 
+2. class factorial
+ 
+    def __init__():
+ 
+    def fact(n):
+ 
+ 
+       return fact
+ 
+save it as fact.py
+ 
+  3 . __init__.py
+ 
+    in the same wipro directory
+ 
+ 
+  4. test.py
+ 
+      create objects of factorial and calculation
+      call the methods
+ 
+ 
+  Test the program
+ 
+===========================================
